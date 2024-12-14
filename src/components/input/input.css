@@ -1,0 +1,22 @@
+.input-field {
+    width: 100%;
+    max-width: 400px; /* Ajuste conforme necessário */
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px; /* Arredondado como na imagem */
+    outline: none;
+    color: #555; /* Cor do texto */
+    font-family: Arial, sans-serif;
+    
+}
+
+.input-field::placeholder {
+    color: #c0c0c0; /* Cinza claro para o placeholder */
+    font-weight: 500; /* Peso do texto no placeholder */
+}
+
+.input-field:focus {
+    border-color: #888; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Efeito de foco */
+}

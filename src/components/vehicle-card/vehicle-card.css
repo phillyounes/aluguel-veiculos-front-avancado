@@ -1,0 +1,29 @@
+.vehicle-card {
+    width: 300px;
+    height: 400px;
+    padding: 32px 15px;
+    border: 2px solid #D4D3D4;
+    border-radius: 15px;
+}
+
+.vehicle-title > h3{
+    margin-bottom: 20px;
+}
+
+.button-visible
+{
+    visibility: visible;
+}
+
+.button-invisible {
+    visibility: hidden;
+}
+.vehicle-wrapper-button {
+    width: 80%;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #C9CEE1;
+    border: none;
+    color: #597B9B;
+    font-size: 1.2rem;
+}

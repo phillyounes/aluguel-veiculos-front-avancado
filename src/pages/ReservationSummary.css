@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+}
+
+.app {
+  max-width: 1024px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+}
+
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.search-section input,
+.continue-btn {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.continue-btn {
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+}
+
+.steps-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.step {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.step.active {
+  background-color: #00376b;
+  color: white;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.client-data {
+  flex: 2;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.client-data h2 {
+  margin-bottom: 20px;
+}
+
+.client-data form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.client-data input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reservation-summary {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-summary h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.vehicle-image {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.pricing h3 {
+  margin: 10px 0 5px;
+}
+
+.reserve-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.reserve-button button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+/* .reservation-summary {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-summary p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.reservation-summary button {
+  display: block;
+  margin: 20px auto;
+} */

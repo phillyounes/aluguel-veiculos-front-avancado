@@ -1,0 +1,18 @@
+.home-wrapper { 
+    padding: 40px 235px; 
+} 
+
+.home-title { 
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #070070; 
+} 
+
+.home-cards { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-top: 40px; 
+    gap: 20px; 
+    max-width: 1200px; 
+} 

@@ -1,0 +1,37 @@
+.dual-input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.dual-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #555;
+}
+
+.dual-input::placeholder {
+    color: #c0c0c0;
+    font-weight: 500;
+}
+
+.date-input {
+    border-right: 1px solid #d3d3d3;
+}
+
+.time-input {
+    border-left: 1px solid transparent;
+}
+
+.dual-input-container:focus-within {
+    border-color: #888;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

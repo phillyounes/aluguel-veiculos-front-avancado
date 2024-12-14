@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: Cousine, Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+:root {
+    --primary-300: #4AB7ED;
+    --primary-500: #1785C9;
+    --primary-600: #070070;
+}
